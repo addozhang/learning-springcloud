@@ -1,0 +1,38 @@
+{
+  "gitbook": ">=3.2.0",
+  "description": "SpringCloud学习笔记",
+  "language": "zh-hans",
+  "author": "Addo Zhang",
+  "extension": null,
+  "generator": "site",
+  "links" : {
+    "sidebar" : {
+        "Sky@Gitbook": "https://addozhang.gitbooks.io"
+    }
+  },
+  "structure" : {
+    },
+  "plugins": [
+    "splitter",
+    "-search",
+    "-sharing",
+    "edit-link",
+    "page-toc-button",
+    "back-to-top-button",
+    "github-buttons@2.1.0"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+        "base": "https://github.com/addozhang/learning-springcloud/edit/master",
+        "label": "Edit"
+    },
+    "github-buttons": {
+        "repo": "addozhang/learning-springcloud",
+        "types": ["star"],
+        "size": "small"
+    }
+  },
+  "title": "SpringCloud学习笔记",
+  "variables": {
+  }
+}
